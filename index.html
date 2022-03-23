@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Convertor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="action.js"></script>
+</head>
+<body>
+    <nav>
+        <h1>Number Convertor</h1>
+        <h3>Made by Afnan</h3>
+    </nav>
+    <h3 class="head">Choose the number system from which you want to convert </h3>
+    <div class="btn-group">
+        <button class="btn" onclick="decimal_show()">Decimal</button>
+        <button class="btn" onclick="binary_show()">Binary</button>
+        <button class="btn" onclick="octal_show()">Octal</button>
+        <button class="btn" onclick="hex_show()">Hexadecimal</button>
+        <div class="decimal-mat" id="decimal-mat">
+            <button class="btn" onclick="dtb()">Convert to Binary</button><button class="btn" onclick="dto()">Convert to Octal</button><button class="btn" onclick="dth()">Convert to Hexadecimal</button>
+        </div>
+        <div class="decimal-mat" id="binary-mat">
+            <button class="btn" onclick="btd()">Convert to Decimal</button><button class="btn" onclick="bto()">Convert to Octal</button><button class="btn" onclick="bth()">Convert to Hexadecimal</button>
+        </div>
+        <div class="decimal-mat" id="octal-mat">
+            <button class="btn" onclick="otb()">Convert to Binary</button><button class="btn" onclick="otd()">Convert to Decimal</button><button class="btn" onclick="oth()">Convert to Hexadecimal</button>
+        </div>
+        <div class="decimal-mat" id="hex-mat">
+            <button class="btn" onclick="htb()">Convert to Binary</button><button class="btn" onclick="hto()">Convert to Octal</button><button class="btn" onclick = "htd()">Convert to Decimal</button>
+        </div>
+    </div>
+</body>
+</html>
